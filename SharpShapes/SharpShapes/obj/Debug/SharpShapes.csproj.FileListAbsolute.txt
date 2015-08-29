@@ -1,0 +1,14 @@
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\bin\Debug\SharpShapes.exe.config
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\bin\Debug\SharpShapes.exe
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\bin\Debug\SharpShapes.pdb
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csprojResolveAssemblyReference.cache
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\MainWindow.g.cs
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\App.g.cs
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes_MarkupCompile.cache
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes_MarkupCompile.lref
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\MainWindow.baml
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.g.resources
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.Properties.Resources.resources
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csproj.GenerateResource.Cache
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.exe
+c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.pdb
