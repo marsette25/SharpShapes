@@ -12,3 +12,6 @@ c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\
 c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.csproj.GenerateResource.Cache
 c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.exe
 c:\users\marsette\documents\visual studio 2015\Projects\SharpShapes\SharpShapes\obj\Debug\SharpShapes.pdb
+C:\Users\Marsette\Documents\GitHub\SharpShapes\SharpShapes\bin\Debug\SharpShapes.exe.config
+C:\Users\Marsette\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.exe
+C:\Users\Marsette\Documents\GitHub\SharpShapes\SharpShapes\obj\Debug\SharpShapes.pdb

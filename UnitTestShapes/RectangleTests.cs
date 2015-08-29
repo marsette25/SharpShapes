@@ -7,19 +7,11 @@ namespace UnitTestShapes
     [TestClass]
     public class RectangleTests
     {
-        public class RectangleTestClass : Square
-        {
-            public override float Perimeter()
-            {
-                throw new NotImplementedException();
-            }
-        }
-
 
         [TestMethod]
             public void TestRectangleCanComputeArea()
             {
-                RectangleTestClass myRectangle = new RectangleTestClass();
+                Rectangle myRectangle = new Rectangle();
                 myRectangle.length = 2;
                 myRectangle.width = 2;
                 Assert.AreEqual(myRectangle.Area(), 4);
@@ -28,10 +20,10 @@ namespace UnitTestShapes
            [TestMethod]
             public void TestRectangleCanComputePerimeter()
             {
-                RectangleTestClass myRectangle = new RectangleTestClass();
-                myRectangle.length = 3;
-                myRectangle.width = 5;
-                Assert.AreEqual(myRectangle.Perimeter(), 16);
+                Rectangle myRectangle = new Rectangle();
+                myRectangle.length = 5;
+                myRectangle.width = 10;
+                Assert.AreEqual(myRectangle.Perimeter(), 30);
             }
         }
     }

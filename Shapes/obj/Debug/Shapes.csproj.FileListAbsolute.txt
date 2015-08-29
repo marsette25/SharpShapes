@@ -3,3 +3,8 @@ C:\Users\Marsette\Documents\Visual Studio 2015\Projects\SharpShapes\Shapes\bin\D
 C:\Users\Marsette\Documents\Visual Studio 2015\Projects\SharpShapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
 C:\Users\Marsette\Documents\Visual Studio 2015\Projects\SharpShapes\Shapes\obj\Debug\Shapes.dll
 C:\Users\Marsette\Documents\Visual Studio 2015\Projects\SharpShapes\Shapes\obj\Debug\Shapes.pdb
+C:\Users\Marsette\Documents\GitHub\SharpShapes\Shapes\bin\Debug\Shapes.dll
+C:\Users\Marsette\Documents\GitHub\SharpShapes\Shapes\bin\Debug\Shapes.pdb
+C:\Users\Marsette\Documents\GitHub\SharpShapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+C:\Users\Marsette\Documents\GitHub\SharpShapes\Shapes\obj\Debug\Shapes.dll
+C:\Users\Marsette\Documents\GitHub\SharpShapes\Shapes\obj\Debug\Shapes.pdb
