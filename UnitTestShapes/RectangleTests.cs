@@ -15,6 +15,7 @@ namespace UnitTestShapes
             }
         }
 
+
         [TestMethod]
             public void TestRectangleCanComputeArea()
             {
@@ -23,6 +24,17 @@ namespace UnitTestShapes
                 myRectangle.width = 2;
                 Assert.AreEqual(myRectangle.Area(), 4);
             }
+
+           [TestMethod]
+            public void TestRectangleCanComputePerimeter()
+            {
+                RectangleTestClass myRectangle = new RectangleTestClass();
+                myRectangle.length = 3;
+                myRectangle.width = 5;
+                Assert.AreEqual(myRectangle.Perimeter(), 16);
+            }
         }
     }
+
+
 

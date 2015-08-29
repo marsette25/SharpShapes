@@ -17,6 +17,11 @@ namespace Shapes
             return this.length * this.width;
         }
 
+    public override float Perimeter()
+        {
+            return (this.length * 2) +  (this.width * 2);
+        }
+
 
     }
 }

@@ -22,6 +22,15 @@ namespace UnitTestShapes
             mySquare.width = 6;
             Assert.AreEqual(mySquare.Area(), 36);
         }
+
+        [TestMethod]
+        public void TestSquareCanComputePerimeter()
+        {
+            SquareTestClass myRectangle = new SquareTestClass();
+            mySquare.length = 3;
+            mySquare.width = 5;
+            Assert.AreEqual(myRectangle.Perimeter(), 16);
+        }
     }
 }
 
