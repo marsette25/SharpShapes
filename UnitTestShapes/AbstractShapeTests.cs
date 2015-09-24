@@ -1,42 +1,73 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Shapes;
 using System.Drawing;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace UnitTestShapes
 {
     [TestClass]
-    public class AbstractShapeTests
+    public class ShapeTest
     {
-
-        private class MyMockShape : Shape 
+        public class ConcreteShape : Shapes.Shape
         {
-            public override float Area()
+            public ConcreteShape()
             {
-                throw new NotImplementedException();
-            }
-
-            public override float Perimeter()
-            {
-                throw new NotImplementedException();
+                BorderColor = Color.DeepSkyBlue;
+                FillColor = Color.Khaki;
             }
         }
 
-        MyMockShape omgMyShape = new MyMockShape();
-
         [TestMethod]
-        public void TestingAbstractShapeClass()
+        public void TestAbstractShapeHasBorderColor()
         {
-            omgMyShape.FillColor = Color.PapayaWhip;
-            Assert.AreEqual(Color.PapayaWhip, omgMyShape.FillColor);
+            ConcreteShape cs = new ConcreteShape();
+            Assert.AreEqual(Color.DeepSkyBlue, cs.BorderColor);
         }
 
         [TestMethod]
-        public void TestThatAbstractShapeClassHasBorderColor()
+        public void TestAbstractShapeHasFillColor()
         {
-            omgMyShape.BorderColor = Color.NavajoWhite;
-            Assert.AreEqual(Color.NavajoWhite, omgMyShape.BorderColor);
+            ConcreteShape cs = new ConcreteShape();
+            Assert.AreEqual(Color.Khaki, cs.FillColor);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void TestAbstractShapeHasArea()
+        {
+            ConcreteShape cs = new ConcreteShape();
+            cs.Area();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NotImplementedException))]
+        public void TestAbstractShapeHasPerimeter()
+        {
+            ConcreteShape cs = new ConcreteShape();
+            cs.Perimeter();
+        }
+
+        [TestMethod]
+        public void TestFindShapes()
+        {
+            List<string> classes = new List<string> { "Square", "Rectangle", "Shape"};
+            CollectionAssert.AreEqual(classes, Assembly.GetAssembly(typeof(Shapes.Quadrilateral)).GetTypes());
+
+        }
+
+        [TestMethod]
+        public void TestSquareIsASubClassOfRectangle()
+        {
+            Assert.IsTrue(typeof(Shapes.Square).IsSubclassOf(typeof(Shapes.Rectangle)));
+        }
+
+        [TestMethod]
+        public void TestSquareIsASubClassOfQuadrilateral()
+        {
+            Assert.IsTrue(typeof(Shapes.Square).IsSubclassOf(typeof(Shapes.Quadrilateral)));
+        }
+
 
     }
 }
